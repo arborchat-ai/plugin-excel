@@ -10,23 +10,14 @@
                     "description": "The screening criteria",
                     "name": "query",
                     "type": "string"
-                },
-                {
-                    "description": "The direction to output the results, 0 for vertical, 1 for horizontal, default 0",
-                    "name": "direction",
-                    "optional": true,
-                    "type": "number"
                 }
             ],
-            "result": {
-                "dimensionality": "matrix",
-                "type": "string"
-            }
+            "result": {}
         },
         {
             "description": "Answers questions about a company based on its stock symbol in a short format.",
-            "id": "ARBOR_CHAT",
-            "name": "ARBOR_CHAT",
+            "id": "ARBOR_DEEP",
+            "name": "ARBOR_DEEP",
             "parameters": [
                 {
                     "description": "The stock symbol of the company",
@@ -40,7 +31,7 @@
                 },
                 {
                     "description": "Whether to return a long answer",
-                    "name": "longAnswer",
+                    "name": "isLongAnswer",
                     "optional": true,
                     "type": "boolean"
                 }
@@ -67,8 +58,8 @@
         },
         {
             "description": "Answers factual questions about a company based on its stock symbol.",
-            "id": "ARBOR_FACTUAL",
-            "name": "ARBOR_FACTUAL",
+            "id": "ARBOR_FAST",
+            "name": "ARBOR_FAST",
             "parameters": [
                 {
                     "description": "The stock symbol of the company",
@@ -84,155 +75,6 @@
             "result": {
                 "type": "string"
             }
-        },
-        {
-            "description": "Returns company information as an entity",
-            "id": "COMPANY_INFO",
-            "name": "COMPANY_INFO",
-            "parameters": [
-                {
-                    "description": "The stock ticker symbol",
-                    "name": "ticker",
-                    "type": "string"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Returns the value of the specified balance sheet key for the given stock symbol.",
-            "id": "BALANCE_SHEET",
-            "name": "BALANCE_SHEET",
-            "parameters": [
-                {
-                    "description": "The stock symbol to fetch data for",
-                    "name": "ticker",
-                    "type": "string"
-                },
-                {
-                    "description": "The year to fetch data for",
-                    "name": "year",
-                    "type": "number"
-                },
-                {
-                    "description": "The quarter to fetch data for, default 0 for full year, 1 for Q1, 2 for Q2, 3 for Q3, 4 for Q4",
-                    "name": "quarter",
-                    "optional": true,
-                    "type": "number"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Returns the value of the specified cash flow statement key for the given stock symbol.",
-            "id": "CASH_FLOW",
-            "name": "CASH_FLOW",
-            "parameters": [
-                {
-                    "description": "The stock symbol to fetch data for",
-                    "name": "ticker",
-                    "type": "string"
-                },
-                {
-                    "description": "The year to fetch data for",
-                    "name": "year",
-                    "type": "number"
-                },
-                {
-                    "description": "The quarter to fetch data for, default 0 for full year, 1 for Q1, 2 for Q2, 3 for Q3, 4 for Q4",
-                    "name": "quarter",
-                    "optional": true,
-                    "type": "number"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Returns the value of the specified income statement key for the given stock symbol.",
-            "id": "INCOME",
-            "name": "INCOME",
-            "parameters": [
-                {
-                    "description": "The stock symbol to fetch data for",
-                    "name": "ticker",
-                    "type": "string"
-                },
-                {
-                    "description": "The year to fetch data for",
-                    "name": "year",
-                    "type": "number"
-                },
-                {
-                    "description": "The quarter to fetch data for, default 0 for full year, 1 for Q1, 2 for Q2, 3 for Q3, 4 for Q4",
-                    "name": "quarter",
-                    "optional": true,
-                    "type": "number"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Returns the value of the specified key metrics key for the given stock symbol.",
-            "id": "KEY_METRICS",
-            "name": "KEY_METRICS",
-            "options": {
-                "volatile": true
-            },
-            "parameters": [
-                {
-                    "description": "The stock symbol to fetch data for",
-                    "name": "ticker",
-                    "type": "string"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Returns the value of the specified price target consensus key for the given stock symbol.",
-            "id": "PRICE_TARGET_CONSENSUS",
-            "name": "PRICE_TARGET_CONSENSUS",
-            "options": {
-                "volatile": true
-            },
-            "parameters": [
-                {
-                    "description": "The stock symbol to fetch data for",
-                    "name": "ticker",
-                    "type": "string"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Returns the value of the specified quote key for the given stock symbol.",
-            "id": "QUOTE",
-            "name": "QUOTE",
-            "options": {
-                "volatile": true
-            },
-            "parameters": [
-                {
-                    "description": "The stock symbol to fetch data for",
-                    "name": "ticker",
-                    "type": "string"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Returns the value of the specified ratios key for the given stock symbol.",
-            "id": "RATIOS",
-            "name": "RATIOS",
-            "options": {
-                "volatile": true
-            },
-            "parameters": [
-                {
-                    "description": "The stock symbol to fetch data for",
-                    "name": "ticker",
-                    "type": "string"
-                }
-            ],
-            "result": {}
         }
     ]
 }
