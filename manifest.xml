@@ -41,7 +41,6 @@
             <Metadata>
               <SourceLocation resid="Functions.Metadata.Url"/>
             </Metadata>
-            <Namespace resid="Functions.Namespace"/>
           </ExtensionPoint>
         </AllFormFactors>
         <DesktopFormFactor>
@@ -79,6 +78,54 @@
               </Group>
             </OfficeTab>
           </ExtensionPoint>
+          <ExtensionPoint xsi:type="ContextMenu">
+            <OfficeMenu id="ContextMenuCell">
+              <Control xsi:type="Menu" id="ArborChatContextMenu">
+                <Label resid="ContextMenu.Label"/>
+                <Supertip>
+                  <Title resid="ContextMenu.Label"/>
+                  <Description resid="ContextMenu.Tooltip"/>
+                </Supertip>
+                <Icon>
+                  <bt:Image size="16" resid="Icon.16x16"/>
+                  <bt:Image size="32" resid="Icon.32x32"/>
+                  <bt:Image size="80" resid="Icon.80x80"/>
+                </Icon>
+                <Items>
+                  <Item id="RecalculateItem">
+                    <Label resid="RecalculateButton.Label"/>
+                    <Supertip>
+                      <Title resid="RecalculateButton.Label"/>
+                      <Description resid="RecalculateButton.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="Icon.16x16"/>
+                      <bt:Image size="32" resid="Icon.32x32"/>
+                      <bt:Image size="80" resid="Icon.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>recalculate</FunctionName>
+                    </Action>
+                  </Item>
+                  <Item id="StoreAnswerItem">
+                    <Label resid="StoreAnswerButton.Label"/>
+                    <Supertip>
+                      <Title resid="StoreAnswerButton.Label"/>
+                      <Description resid="StoreAnswerButton.Tooltip"/>
+                    </Supertip>
+                    <Icon>
+                      <bt:Image size="16" resid="Icon.16x16"/>
+                      <bt:Image size="32" resid="Icon.32x32"/>
+                      <bt:Image size="80" resid="Icon.80x80"/>
+                    </Icon>
+                    <Action xsi:type="ExecuteFunction">
+                      <FunctionName>storeAnswer</FunctionName>
+                    </Action>
+                  </Item>
+                </Items>
+              </Control>
+            </OfficeMenu>
+          </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
     </Hosts>
@@ -98,14 +145,19 @@
 
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="Functions.Namespace" DefaultValue="ArborChat"/>
         <bt:String id="GetStarted.Title" DefaultValue="Get Started with Arbor Chat"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Arbor Chat"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Settings"/>
+        <bt:String id="ContextMenu.Label" DefaultValue="Arbor Chat"/>
+        <bt:String id="RecalculateButton.Label" DefaultValue="Arbor Chat: Recalculate"/>
+        <bt:String id="StoreAnswerButton.Label" DefaultValue="Arbor Chat: Store Answer"/>
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="GetStarted.Description" DefaultValue="Arbor Chat is a tool that allows you to ask questions about a company's financials and other information."/>
         <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show Arbor Chat Settings"/>
+        <bt:String id="ContextMenu.Tooltip" DefaultValue="Arbor Chat Actions"/>
+        <bt:String id="RecalculateButton.Tooltip" DefaultValue="Recalculate the selected cell using ArborChat"/>
+        <bt:String id="StoreAnswerButton.Tooltip" DefaultValue="Store the answer in the selected cell"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
