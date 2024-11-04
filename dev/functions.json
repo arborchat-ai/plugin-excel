@@ -1,0 +1,80 @@
+{
+    "allowCustomDataForDataTypeAny": true,
+    "functions": [
+        {
+            "description": "Screens stocks based on given criteria.",
+            "id": "ARBOR_SCREEN",
+            "name": "ARBOR_SCREEN",
+            "parameters": [
+                {
+                    "description": "The screening criteria",
+                    "name": "query",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Answers questions about a company based on its stock symbol in a short format.",
+            "id": "ARBOR_DEEP",
+            "name": "ARBOR_DEEP",
+            "parameters": [
+                {
+                    "description": "The stock symbol of the company",
+                    "name": "ticker",
+                    "type": "string"
+                },
+                {
+                    "description": "The question to ask about the company",
+                    "name": "query",
+                    "type": "string"
+                },
+                {
+                    "description": "Whether to return a long answer",
+                    "name": "isLongAnswer",
+                    "optional": true,
+                    "type": "boolean"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Answers questions about a company based on its stock symbol in a short format.",
+            "id": "ARBOR_NUMBER",
+            "name": "ARBOR_NUMBER",
+            "parameters": [
+                {
+                    "description": "The stock symbol of the company",
+                    "name": "ticker",
+                    "type": "string"
+                },
+                {
+                    "description": "The question to ask about the company",
+                    "name": "query",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Answers factual questions about a company based on its stock symbol.",
+            "id": "ARBOR_FAST",
+            "name": "ARBOR_FAST",
+            "parameters": [
+                {
+                    "description": "The stock symbol of the company",
+                    "name": "ticker",
+                    "type": "string"
+                },
+                {
+                    "description": "The factual question to ask about the company",
+                    "name": "query",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        }
+    ]
+}
