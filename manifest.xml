@@ -161,4 +161,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
+  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json"/>
 </OfficeApp>

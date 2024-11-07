@@ -2,9 +2,33 @@
     "allowCustomDataForDataTypeAny": true,
     "functions": [
         {
+            "description": "Answers factual questions about a company based on its stock symbol.",
+            "id": "ARBOR_FAST",
+            "name": "ARBOR_FAST",
+            "options": {
+                "cancelable": true
+            },
+            "parameters": [
+                {
+                    "description": "The stock symbol of the company",
+                    "name": "ticker",
+                    "type": "string"
+                },
+                {
+                    "description": "The factual question to ask about the company",
+                    "name": "query",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
             "description": "Screens stocks based on given criteria.",
             "id": "ARBOR_SCREEN",
             "name": "ARBOR_SCREEN",
+            "options": {
+                "cancelable": true
+            },
             "parameters": [
                 {
                     "description": "The screening criteria",
@@ -16,8 +40,32 @@
         },
         {
             "description": "Answers questions about a company based on its stock symbol in a short format.",
+            "id": "ARBOR_NUMBER",
+            "name": "ARBOR_NUMBER",
+            "options": {
+                "cancelable": true
+            },
+            "parameters": [
+                {
+                    "description": "The stock symbol of the company",
+                    "name": "ticker",
+                    "type": "string"
+                },
+                {
+                    "description": "The question to ask about the company",
+                    "name": "query",
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Answers questions about a company based on its stock symbol in a short format.",
             "id": "ARBOR_DEEP",
             "name": "ARBOR_DEEP",
+            "options": {
+                "cancelable": true
+            },
             "parameters": [
                 {
                     "description": "The stock symbol of the company",
@@ -37,44 +85,6 @@
                 }
             ],
             "result": {}
-        },
-        {
-            "description": "Answers questions about a company based on its stock symbol in a short format.",
-            "id": "ARBOR_NUMBER",
-            "name": "ARBOR_NUMBER",
-            "parameters": [
-                {
-                    "description": "The stock symbol of the company",
-                    "name": "ticker",
-                    "type": "string"
-                },
-                {
-                    "description": "The question to ask about the company",
-                    "name": "query",
-                    "type": "string"
-                }
-            ],
-            "result": {}
-        },
-        {
-            "description": "Answers factual questions about a company based on its stock symbol.",
-            "id": "ARBOR_FAST",
-            "name": "ARBOR_FAST",
-            "parameters": [
-                {
-                    "description": "The stock symbol of the company",
-                    "name": "ticker",
-                    "type": "string"
-                },
-                {
-                    "description": "The factual question to ask about the company",
-                    "name": "query",
-                    "type": "string"
-                }
-            ],
-            "result": {
-                "type": "string"
-            }
         }
     ]
 }
