@@ -60,6 +60,15 @@
             "result": {}
         },
         {
+            "description": "Returns the version of the Arbor Chat extension.",
+            "id": "ARBOR_VERSION",
+            "name": "ARBOR_VERSION",
+            "parameters": [],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
             "description": "Answers questions about a company based on its stock symbol in a short format.",
             "id": "ARBOR_DEEP",
             "name": "ARBOR_DEEP",
