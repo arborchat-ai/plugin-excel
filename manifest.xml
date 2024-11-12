@@ -6,9 +6,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Arbor Chat"/>
   <Description DefaultValue="Ask before trading a stock"/>
-  <IconUrl DefaultValue="https://excel-addin.arborchat.ai/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://excel-addin.arborchat.ai/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://arborchat.ai/help"/>
+  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="https://arborchat.ai"/>
   <AppDomains>
     <AppDomain>https://arborchat.ai</AppDomain>
   </AppDomains>
@@ -21,7 +21,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://excel-addin.arborchat.ai/taskpane.html"/>
+    <SourceLocation DefaultValue="https://localhost:3000/taskpane.html?t=1731406044915"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -131,17 +131,17 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://excel-addin.arborchat.ai/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://excel-addin.arborchat.ai/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://excel-addin.arborchat.ai/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.arborchat.ai/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.arborchat.ai/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://localhost:3000/commands.html?t=1731406044915"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000/taskpane.html?t=1731406044915"/>
 
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.js"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.json"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://localhost:3000/functions.js?t=1731406044915"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://localhost:3000/functions.json?t=1731406044915"/>
 
       </bt:Urls>
       <bt:ShortStrings>
@@ -161,5 +161,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
-  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json"/>
+  <ExtendedOverrides Url="https://localhost:3000/shortcuts.json?t=1731406044915"/>
 </OfficeApp>

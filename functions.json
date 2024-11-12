@@ -94,6 +94,40 @@
                 }
             ],
             "result": {}
+        },
+        {
+            "description": "Answers questions about a company using GPT.",
+            "id": "ARBOR_GPT",
+            "name": "ARBOR_GPT",
+            "options": {
+                "cancelable": true
+            },
+            "parameters": [
+                {
+                    "description": "The question to ask about the company, containing multiple sentences",
+                    "name": "query",
+                    "repeating": true,
+                    "type": "string"
+                }
+            ],
+            "result": {}
+        },
+        {
+            "description": "Returns a list of answers from GPT.",
+            "id": "ARBOR_GPT_LIST",
+            "name": "ARBOR_GPT_LIST",
+            "options": {
+                "cancelable": true
+            },
+            "parameters": [
+                {
+                    "description": "The question to ask that should return a list, containing multiple sentences",
+                    "name": "query",
+                    "repeating": true,
+                    "type": "string"
+                }
+            ],
+            "result": {}
         }
     ]
 }
