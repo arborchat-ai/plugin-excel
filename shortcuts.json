@@ -11,24 +11,5 @@
             "name": "Store answer"
         }
     ],
-    "shortcuts": [
-        {
-            "action": "recalculate",
-            "key": {
-                "default": "Ctrl+Shift+1",
-                "mac": "Command+Shift+1",
-                "web": "Ctrl+Shift+1",
-                "windows": "Ctrl+Shift+1"
-            }
-        },
-        {
-            "action": "storeAnswer",
-            "key": {
-                "default": "Ctrl+Shift+2",
-                "mac": "Command+Shift+2",
-                "web": "Ctrl+Shift+2",
-                "windows": "Ctrl+Shift+2"
-            }
-        }
-    ]
+    "shortcuts": []
 }
