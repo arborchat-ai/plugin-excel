@@ -21,7 +21,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://excel-addin.local.arborit.ai:3000/taskpane.html?t=1731911543526"/>
+    <SourceLocation DefaultValue="https://excel-addin.local.arborit.ai:3000/taskpane.html?t=1731912132720"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -137,11 +137,11 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/commands.html?t=1731911543526"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/taskpane.html?t=1731911543526"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/commands.html?t=1731912132720"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/taskpane.html?t=1731912132720"/>
 
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/functions.js?t=1731911543526"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/functions.json?t=1731911543526"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/functions.js?t=1731912132720"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.local.arborit.ai:3000/functions.json?t=1731912132720"/>
 
       </bt:Urls>
       <bt:ShortStrings>
@@ -161,5 +161,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
-  <ExtendedOverrides Url="https://excel-addin.local.arborit.ai:3000/shortcuts.json?t=1731911543526"/>
+  <ExtendedOverrides Url="https://excel-addin.local.arborit.ai:3000/shortcuts.json?t=1731912132720"/>
 </OfficeApp>
