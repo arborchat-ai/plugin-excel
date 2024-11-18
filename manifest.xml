@@ -21,7 +21,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1731903818420"/>
+    <SourceLocation DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1731911543524"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -137,11 +137,11 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.arborchat.ai/commands.html?t=1731903818420"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1731903818420"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.arborchat.ai/commands.html?t=1731911543524"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1731911543524"/>
 
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.js?t=1731903818420"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.json?t=1731903818420"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.js?t=1731911543524"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.json?t=1731911543524"/>
 
       </bt:Urls>
       <bt:ShortStrings>
@@ -161,5 +161,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
-  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json?t=1731903818420"/>
+  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json?t=1731911543524"/>
 </OfficeApp>
