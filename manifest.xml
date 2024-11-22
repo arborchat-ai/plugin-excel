@@ -2,15 +2,18 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>2561103b-2d81-44f2-8b18-314a3d5699ba</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Arbor Chat</ProviderName>
+  <ProviderName>ArborChat for Excel</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Arbor Chat"/>
-  <Description DefaultValue="Ask before trading a stock"/>
+  <DisplayName DefaultValue="ArborChat for Excel"/>
+  <Description DefaultValue="Customise your financial analysis at ease with AI"/>
   <IconUrl DefaultValue="https://excel-addin.arborchat.ai/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://excel-addin.arborchat.ai/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://arborchat.ai"/>
+  <SupportUrl DefaultValue="https://docs.arborchat.ai/arborchat-for-excel"/>
   <AppDomains>
     <AppDomain>https://arborchat.ai</AppDomain>
+    <AppDomain>https://docs.arborchat.ai</AppDomain>
+    <AppDomain>https://excel-addin.arborchat.ai</AppDomain>
+    <AppDomain>https://api.arborchat.ai</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
@@ -21,7 +24,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1731931602526"/>
+    <SourceLocation DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1732271197866"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -137,29 +140,29 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.arborchat.ai/commands.html?t=1731931602526"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1731931602526"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.arborchat.ai/commands.html?t=1732271197866"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1732271197866"/>
 
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.js?t=1731931602526"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.json?t=1731931602526"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.js?t=1732271197866"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.json?t=1732271197866"/>
 
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get Started with Arbor Chat"/>
-        <bt:String id="CommandsGroup.Label" DefaultValue="Arbor Chat"/>
-        <bt:String id="TaskpaneButton.Label" DefaultValue="Settings"/>
-        <bt:String id="ContextMenu.Label" DefaultValue="Arbor Chat"/>
-        <bt:String id="RecalculateButton.Label" DefaultValue="Arbor Chat: Recalculate"/>
-        <bt:String id="StoreAnswerButton.Label" DefaultValue="Arbor Chat: Store Answer"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Get Started with ArborChat"/>
+        <bt:String id="CommandsGroup.Label" DefaultValue="ArborChat"/>
+        <bt:String id="TaskpaneButton.Label" DefaultValue="Launch"/>
+        <bt:String id="ContextMenu.Label" DefaultValue="ArborChat"/>
+        <bt:String id="RecalculateButton.Label" DefaultValue="ArborChat: Regenerate"/>
+        <bt:String id="StoreAnswerButton.Label" DefaultValue="ArborChat: Store as Value"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Arbor Chat is a tool that allows you to ask questions about a company's financials and other information."/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show Arbor Chat Settings"/>
-        <bt:String id="ContextMenu.Tooltip" DefaultValue="Arbor Chat Actions"/>
-        <bt:String id="RecalculateButton.Tooltip" DefaultValue="Recalculate the selected cell using ArborChat"/>
-        <bt:String id="StoreAnswerButton.Tooltip" DefaultValue="Store the answer in the selected cell"/>
+        <bt:String id="GetStarted.Description" DefaultValue="ArborChat for Excel connects your spreadsheets to comprehensive stock market data, offering access to thousands of global companies"/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Launch ArborChat"/>
+        <bt:String id="ContextMenu.Tooltip" DefaultValue="ArborChat Actions"/>
+        <bt:String id="RecalculateButton.Tooltip" DefaultValue="Regenerate the selected cell using ArborChat"/>
+        <bt:String id="StoreAnswerButton.Tooltip" DefaultValue="Store the answer as value in the selected cell"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
-  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json?t=1731931602526"/>
+  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json?t=1732271197866"/>
 </OfficeApp>
