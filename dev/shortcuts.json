@@ -1,0 +1,15 @@
+{
+    "actions": [
+        {
+            "id": "recalculate",
+            "type": "ExecuteFunction",
+            "name": "Re-calculate"
+        },
+        {
+            "id": "storeAnswer",
+            "type": "ExecuteFunction",
+            "name": "Store answer"
+        }
+    ],
+    "shortcuts": []
+}
