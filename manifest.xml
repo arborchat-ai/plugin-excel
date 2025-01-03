@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>2561103b-2d81-44f2-8b18-314a3d5699ba</Id>
-  <Version>1.0.0.1</Version>
+  <Version>1.0.0.2</Version>
   <ProviderName>Speechless Financial Technology Company Limited</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="ArborChat for Excel"/>
@@ -24,7 +24,7 @@
     </Sets>
   </Requirements>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1735789918919"/>
+    <SourceLocation DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1735893090969"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -140,11 +140,11 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.arborchat.ai/commands.html?t=1735789918919"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1735789918919"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://excel-addin.arborchat.ai/commands.html?t=1735893090969"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://excel-addin.arborchat.ai/taskpane.html?t=1735893090969"/>
 
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.js?t=1735789918919"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.json?t=1735789918919"/>
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.js?t=1735893090969"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="https://excel-addin.arborchat.ai/functions.json?t=1735893090969"/>
 
       </bt:Urls>
       <bt:ShortStrings>
@@ -164,5 +164,5 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
-  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json?t=1735789918919"/>
+  <ExtendedOverrides Url="https://excel-addin.arborchat.ai/shortcuts.json?t=1735893090969"/>
 </OfficeApp>
