@@ -3,6 +3,7 @@
     "functions": [
         {
             "description": "Answers factual questions about a company based on its stock symbol.",
+            "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_FAST",
             "name": "ARBOR_FAST",
             "options": {
@@ -24,6 +25,7 @@
         },
         {
             "description": "Screens stocks based on given criteria.",
+            "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_SCREEN",
             "name": "ARBOR_SCREEN",
             "options": {
@@ -40,6 +42,7 @@
         },
         {
             "description": "Answers questions about a company based on its stock symbol in a short format.",
+            "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_NUMBER",
             "name": "ARBOR_NUMBER",
             "options": {
@@ -67,6 +70,7 @@
         },
         {
             "description": "Answers questions about a company based on its stock symbol in a short format.",
+            "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_DEEP",
             "name": "ARBOR_DEEP",
             "options": {
@@ -100,6 +104,7 @@
         },
         {
             "description": "Answers questions about a company using GPT.",
+            "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_GPT",
             "name": "ARBOR_GPT",
             "options": {
@@ -117,6 +122,7 @@
         },
         {
             "description": "Returns a list of answers from GPT.",
+            "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_GPT_LIST",
             "name": "ARBOR_GPT_LIST",
             "options": {
