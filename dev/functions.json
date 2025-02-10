@@ -19,6 +19,18 @@
                     "description": "The factual question to ask about the company",
                     "name": "query",
                     "type": "string"
+                },
+                {
+                    "description": "Whether to return a long answer",
+                    "name": "isLongAnswer",
+                    "optional": true,
+                    "type": "boolean"
+                },
+                {
+                    "description": "The knowledge space to use options: 'internet', 'private', 'hybrid', default is 'internet'",
+                    "name": "knowledgeSpace",
+                    "optional": true,
+                    "type": "string"
                 }
             ],
             "result": {}
