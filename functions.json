@@ -140,13 +140,11 @@
             "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_GPT",
             "name": "ARBOR_GPT",
-            "options": {
-                "cancelable": true
-            },
             "parameters": [
                 {
-                    "description": "The question to ask about the company, containing multiple sentences",
-                    "name": "query",
+                    "dimensionality": "matrix",
+                    "name": "args",
+                    "optional": true,
                     "repeating": true,
                     "type": "string"
                 }
