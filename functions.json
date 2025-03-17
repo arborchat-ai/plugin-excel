@@ -156,13 +156,11 @@
             "helpUrl": "https://docs.arborchat.ai/arborchat-for-excel/available-functions",
             "id": "ARBOR_GPT_LIST",
             "name": "ARBOR_GPT_LIST",
-            "options": {
-                "cancelable": true
-            },
             "parameters": [
                 {
-                    "description": "The question to ask that should return a list, containing multiple sentences",
-                    "name": "query",
+                    "dimensionality": "matrix",
+                    "name": "args",
+                    "optional": true,
                     "repeating": true,
                     "type": "string"
                 }
