@@ -7,7 +7,8 @@
             "id": "ARBOR_FAST",
             "name": "ARBOR_FAST",
             "options": {
-                "cancelable": true
+                "cancelable": true,
+                "requiresAddress": true
             },
             "parameters": [
                 {
@@ -48,7 +49,8 @@
             "id": "ARBOR_SCREEN",
             "name": "ARBOR_SCREEN",
             "options": {
-                "cancelable": true
+                "cancelable": true,
+                "requiresAddress": true
             },
             "parameters": [
                 {
@@ -65,7 +67,8 @@
             "id": "ARBOR_NUMBER",
             "name": "ARBOR_NUMBER",
             "options": {
-                "cancelable": true
+                "cancelable": true,
+                "requiresAddress": true
             },
             "parameters": [
                 {
@@ -100,7 +103,8 @@
             "id": "ARBOR_DEEP",
             "name": "ARBOR_DEEP",
             "options": {
-                "cancelable": true
+                "cancelable": true,
+                "requiresAddress": true
             },
             "parameters": [
                 {
